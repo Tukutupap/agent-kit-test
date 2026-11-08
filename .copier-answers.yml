@@ -1,0 +1,10 @@
+# Written by Copier from the agent kit. Don't edit by hand: run `copier update`.
+_commit: v1
+_src_path: gh:Tukutupap/agent-kit
+board_number: 0
+github_owner: Tukutupap
+github_repo: agent-kit-test
+product_name: Agent Kit Test
+product_summary: A throwaway project for testing the agent kit end to end.
+skills_from: repo
+test_command: npx --yes github:Tukutupap/agent-kit#v1 knowledge-check
