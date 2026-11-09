@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: Tukutupap/agent-kit/checks/pr-format@v1
         with:
           title: ${{ github.event.pull_request.title }}
